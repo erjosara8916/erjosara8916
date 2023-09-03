@@ -5,7 +5,7 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 
 ## Personal Information
 ---
-[**https://github.com/erickjosue8916**](https://github.com/erickjosue8916) 
+[**https://github.com/erjosara8916**](https://github.com/erjosara8916) 
 
 ✉️ [ericksaravia16@gmail.com](mailto:ericksaravia16@gmail.com)
 
@@ -15,7 +15,7 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 
 📌 San Miguel, San Miguel, El Salvador
 
-**🗣️** Languages: 🇪🇸 🇺🇸 (A2)
+**🗣️** Languages: 🇪🇸 🇺🇸 (B1)
 
 🎁 23 years
 
@@ -43,7 +43,8 @@ April 2019 - May 2019
 ## 📣 Conferences
 ---
 
-[Development and Continuous Integration (CI/CD) with Google Cloud - (Speaker)** (Spanish)](https://youtu.be/ke0YrDHLdS8)](https://www.youtube.com/watch?v=ke0YrDHLdS8)
+- [Development and Continuous Integration (CI/CD) with Google Cloud - (Speaker)** (Spanish)](https://youtu.be/ke0YrDHLdS8)
+- [Introduction to Magento Backend Development: Mastering the Magic Behind E-Commerce](https://www.youtube.com/live/jZQSKy5eHz4?si=a87KSV6TsTnn7skv)
 
 ## 📜Education
 ---
