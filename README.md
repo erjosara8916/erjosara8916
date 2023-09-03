@@ -1,11 +1,14 @@
 # Erick Josué Saravia Aragón
+
 ## 👨🏽‍💻 **Backend Developer NodeJs**
 
-I am loving of technology, and I am happy to work with it. I have been great opportunities to work for amazing international and local projects, working beside professional development teams. I have been trying a lot of interesting technologies, I like learning about trending topics like DevOps, Clean Code, Clean Architecture, Domain Driven Design, and others, so I usually take some time to read or take a course about it. 
+I am loving of technology, and I am happy to work with it. I have been great opportunities to work for amazing international and local projects, working beside professional development teams. I have been trying a lot of interesting technologies, I like learning about trending topics like DevOps, Clean Code, Clean Architecture, Domain Driven Design, and others, so I usually take some time to read or take a course about it.
 
 ## Personal Information
+
 ---
-[**https://github.com/erjosara8916**](https://github.com/erjosara8916) 
+
+[**https://github.com/erjosara8916**](https://github.com/erjosara8916)
 
 ✉️ [ericksaravia16@gmail.com](mailto:ericksaravia16@gmail.com)
 
@@ -20,6 +23,7 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 🎁 23 years
 
 ## **🏢Professional experience - roles**
+
 ---
 
 **Unicomer Group, San Salvador**
@@ -41,12 +45,14 @@ Instructor: Programming course with C++
 April 2019 - May 2019
 
 ## 📣 Conferences
+
 ---
 
-- [Development and Continuous Integration (CI/CD) with Google Cloud - (Speaker)** (Spanish)](https://youtu.be/ke0YrDHLdS8)
+- [Development and Continuous Integration (CI/CD) with Google Cloud - (Speaker)\*\* (Spanish)](https://youtu.be/ke0YrDHLdS8)
 - [Introduction to Magento Backend Development: Mastering the Magic Behind E-Commerce](https://www.youtube.com/live/jZQSKy5eHz4?si=a87KSV6TsTnn7skv)
 
 ## 📜Education
+
 ---
 
 **University of El Salvador**
@@ -56,9 +62,10 @@ Software Engineering
 January 2018 - now
 
 ## 📄Courses
+
 ---
 
-[Google Cloud Platform Fundamentals: Core Infrastructure](https://www.coursera.org/account/accomplishments/verify/DGHSFBHD9U9U?utm_source=link&utm_campaign=copybutton_certificate) 
+[Google Cloud Platform Fundamentals: Core Infrastructure](https://www.coursera.org/account/accomplishments/verify/DGHSFBHD9U9U?utm_source=link&utm_campaign=copybutton_certificate)
 
 [Getting Started With Application Development](https://www.coursera.org/account/accomplishments/records/T3VWM33MW7H4)
 
@@ -72,26 +79,20 @@ January 2018 - now
 
 ## 💻Main Stack Technologies
 
-| Technologies | Platforms |
-| --- | --- |
-Typescript | GCP
-NodeJs | Linux
-NestJs | Docker
-Jest | Git
-Express JS | GitLab
-MySql| GitHub
-Postgress | Bitbucket
-Mongo DB | Jira
+| <!--  -->        | <!--  -->  | <!--  --> | <!--  --> | <!--  -->  | <!--  --> | <!--  --> | <!--  --> |
+| ---------------- | ---------- | --------- | --------- | ---------- | --------- | --------- | --------- |
+| **Technologies** | Typescript | NodeJs    | Jest      | Express JS | MySql     | Postgress | Mongo DB  |
+| **Platforms**    | GCP        | Linux     | Docker    | Git        | Gitlab    | Github    | Bitbucket |
 
-💡 Concepts | 💫 Others
---- | ---
-Serverless | DevOps
-SCRUM | Web Scraping
-Clean Code | Git Flow
-SOLID | Java
-Clean Architecture | PHP
+
+
+| <!--  -->        | <!--  -->  | <!--  --> | <!--  --> | <!--  -->  | <!--  --> | 
+| ---------------- | ---------- | --------- | --------- | ---------- | --------- | 
+| **Concepts** | Serverless | SCRUM    | Clean Code      | SOLID | Clean Architecture 
+| **Others**    | DevOps        | Web Scraping     | Java    | Php        | Python
 
 ## 💼Professional experience - projects
+
 ---
 
 **Transform monolith app into a microservices architecture**
@@ -132,7 +133,7 @@ Clean Architecture | PHP
 **Stripe Webhooks handler microservices**
 
 - **Type of company:** City
-- **Project:** The company has used Stripe as Payment Gateway for its services, so they wanted to automatize all events with their account of Xero CRM (all operations were manual  before)
+- **Project:** The company has used Stripe as Payment Gateway for its services, so they wanted to automatize all events with their account of Xero CRM (all operations were manual before)
 - **Position/role:** Backend Developer, Cloud Engineer. Define the entire architecture for the requirements. This project was built on Node Js. The company had been used functions as a Service for its backend, so the proposed architecture was similar. The project was built on NodeJs. The bigger proposition for this project was to take the control of deployments, since they had all one in a unique step, reducing a lot of the time and cost of deployments
 - **Technologies/frameworks: `NodeJs, Typescript, Serverless, GCP PubSub, GCP, Firestore, BigQuery, Xero CRM, Stripe`**
 
@@ -143,14 +144,15 @@ Clean Architecture | PHP
 - **Position/role:** Backend Developer - Cloud Engineer. Analyze and propose an architecture to implement the requirement. This project was built using nodeJs, storing data in Google Cloud BigQuery, showing data in Google Cloud Data Studio, and programming microservice execution with Google Cloud Scheduler
 - **Technologies/frameworks: `NodeJs, Firestore,  Serverless, GCP, Data Studio`**
 
-**Zoho products  integrations**
+**Zoho products integrations**
 
 - **Type of company:** Telecommunications
 - **Project:** The Company uses the Zoho platform and its products to manage its operations. Organizing and planning the activity of their employees with Zoho Projects. Managing their financial operations with Zoho Books, and controlling their clients, contracts, employees, and other information with Zoho CRM. They did want custom integrations for the platform responding to specific events
-- **Position/role:** Backend Developer - Cloud Architect -  Analyze all processes of the company and their operations proposing improvements and automation across Zoho modules, taking advantage of webhooks, rest API, and google cloud products. The project was built in Node JS implementing serverless architecture using GCP PubSub as an event handler sending data to Cloud Functions that call the backend as a service provided by Zoho Platform
+- **Position/role:** Backend Developer - Cloud Architect - Analyze all processes of the company and their operations proposing improvements and automation across Zoho modules, taking advantage of webhooks, rest API, and google cloud products. The project was built in Node JS implementing serverless architecture using GCP PubSub as an event handler sending data to Cloud Functions that call the backend as a service provided by Zoho Platform
 - **Technologies/frameworks: `NodeJs, Serverless, GCP, Zoho Projects, Zoho Books, Zoho CRM, Zoho Recruits`**
 
 ## 👥Personal References
+
 ---
 
 **Fernando Roman Ventura Alvarado**
