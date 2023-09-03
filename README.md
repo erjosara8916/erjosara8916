@@ -8,17 +8,11 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 
 ---
 
-[**https://github.com/erjosara8916**](https://github.com/erjosara8916)
-
-✉️ [ericksaravia16@gmail.com](mailto:ericksaravia16@gmail.com)
-
-👤 [LinkedIn](https://www.linkedin.com/in/ericksaravia8916/)
-
-📞+(503) 7102 1375
-
-📌 San Miguel, San Miguel, El Salvador
-
-**🗣️** Languages: 🇪🇸 🇺🇸 (B1)
+| <!--  -->                              | <!--  -->                                                              |
+| -------------------------------------- | ---------------------------------------------------------------------- |
+| 📞+(503) 7102 1375                     | 👤 [LinkedIn](https://www.linkedin.com/in/ericksaravia8916/)           |
+| 📌 San Miguel, San Miguel, El Salvador | ✉️ [ericksaravia16@gmail.com](mailto:ericksaravia16@gmail.com)         |
+| **🗣️** Languages: 🇪🇸 🇺🇸 (B1)           | [**https://github.com/erjosara8916**](https://github.com/erjosara8916) |
 
 🎁 23 years
 
@@ -26,23 +20,10 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 
 ---
 
-**Unicomer Group, San Salvador**
-
-Software Developer Engineer
-
-November 2021 - now
-
-**Aeegle/Norttech, San Salvador**
-
-Backend Developer NodeJs
-
-February 2020 - November 2021
-
-**University of El Salvador, San Miguel**
-
-Instructor: Programming course with C++
-
-April 2019 - May 2019
+| Company             | Location     | Role                            | From          | To            |
+| ------------------- | ------------ | ------------------------------- | ------------- | ------------- |
+| **Unicomer Group**  | San Salvador | Backend Developer Engineer Lead | November 2021 | Now           |
+| **Aeegle/Norttech** | San Salvador | Backend Developer NodeJs        | February 2020 | November 2021 |
 
 ## 📣 Conferences
 
@@ -55,11 +36,9 @@ April 2019 - May 2019
 
 ---
 
-**University of El Salvador**
-
-Software Engineering
-
-January 2018 - now
+| Institution                   | Degree               | From         | To       |
+| ----------------------------- | -------------------- | ------------ | -------- |
+| **University of El Salvador** | Software Engineering | January 2018 | May 2023 |
 
 ## 📄Courses
 
@@ -84,12 +63,10 @@ January 2018 - now
 | **Technologies** | Typescript | NodeJs    | Jest      | Express JS | MySql     | Postgress | Mongo DB  |
 | **Platforms**    | GCP        | Linux     | Docker    | Git        | Gitlab    | Github    | Bitbucket |
 
-
-
-| <!--  -->        | <!--  -->  | <!--  --> | <!--  --> | <!--  -->  | <!--  --> | 
-| ---------------- | ---------- | --------- | --------- | ---------- | --------- | 
-| **Concepts** | Serverless | SCRUM    | Clean Code      | SOLID | Clean Architecture 
-| **Others**    | DevOps        | Web Scraping     | Java    | Php        | Python
+| <!--  -->    | <!--  -->  | <!--  -->    | <!--  -->  | <!--  --> | <!--  -->          |
+| ------------ | ---------- | ------------ | ---------- | --------- | ------------------ |
+| **Concepts** | Serverless | SCRUM        | Clean Code | SOLID     | Clean Architecture |
+| **Others**   | DevOps     | Web Scraping | Java       | Php       | Python             |
 
 ## 💼Professional experience - projects
 
