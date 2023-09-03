@@ -13,8 +13,7 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 | 📞+(503) 7102 1375                     | 👤 [LinkedIn](https://www.linkedin.com/in/ericksaravia8916/)           |
 | 📌 San Miguel, San Miguel, El Salvador | ✉️ [ericksaravia16@gmail.com](mailto:ericksaravia16@gmail.com)         |
 | **🗣️** Languages: 🇪🇸 🇺🇸 (B1)           | [**https://github.com/erjosara8916**](https://github.com/erjosara8916) |
-
-🎁 23 years
+🎁 24 years | <!--  -->
 
 ## **🏢Professional experience - roles**
 
