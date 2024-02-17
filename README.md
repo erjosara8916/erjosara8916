@@ -4,113 +4,69 @@
 
 I am loving of technology, and I am happy to work with it. I have been great opportunities to work for amazing international and local projects, working beside professional development teams. I have been trying a lot of interesting technologies, I like learning about trending topics like DevOps, Clean Code, Clean Architecture, Domain Driven Design, and others, so I usually take some time to read or take a course about it.
 
-**🗣️ Languages:** 🇪🇸 (Native) 🇺🇸 (B1)
+## Personal Information
 
-📞**+(503) 7102 1375**
+---
 
-🎁 25 years
+| <!--  -->                              | <!--  -->                                                              |
+| -------------------------------------- | ---------------------------------------------------------------------- |
+| 📞+(503) 7102 1375                     | ✉️ [ericksaravia16@gmail.com](mailto:ericksaravia16@gmail.com)          |
+| 📌 San Miguel, San Miguel, El Salvador | 👤 [https://www.linkedin.com/in/ericksaravia8916](https://www.linkedin.com/in/ericksaravia8916?originalSubdomain=sv)        |
+| **🗣️** Languages: 🇪🇸 🇺🇸 (B1)           | 📁 [https://github.com/erjosara8916](https://github.com/erjosara8916) |
+🎁 25 years | 🌐 [https://resume.ericksaravia.com/](https://resume.ericksaravia.com/)
 
-📌 San Miguel, San Miguel, El Salvador
+## **🏢Professional experience - roles**
 
-✉️ [ericksaravia16@gmail.com](mailto:ericksaravia16@gmail.com)
+---
 
-👤 [https://www.linkedin.com/in/ericksaravia8916](https://www.linkedin.com/in/ericksaravia8916?originalSubdomain=sv)
+| Company             | Location     | Role                            | From          | To            |
+| ------------------- | ------------ | ------------------------------- | ------------- | ------------- |
+| **Unicomer Group**  | San Salvador | Backend Developer Engineer Lead | November 2021 | Now           |
+| **Aeegle/Norttech** | San Salvador | Backend Developer NodeJs        | February 2020 | November 2021 |
 
-📁 [https://github.com/erjosara8916](https://github.com/erjosara8916)
 
-🌐 [https://resume.ericksaravia.com/](https://resume.ericksaravia.com/)
+## 💻Technical Skills
 
-### 🏢Professional experience - roles
+| <!--  -->        | <!--  -->  | <!--  --> | <!--  --> | <!--  -->  | <!--  --> | <!--  --> | <!--  --> | <!--  --> |
+| ---------------- | ---------- | --------- | --------- | ---------- | --------- | --------- | --------- | --------- |
+| **Technologies** | Typescript | NodeJs    | Python      | Java | PHP | MySql     | Postgress | Mongo DB  |
+| **Platforms**    | GCP        | Linux     | Docker    | Git        | Gitlab    | Github    |  Bitbucket | Jira
 
-**Unicomer Group, San Salvador**
+| <!--  -->    | <!--  -->  | <!--  -->    | <!--  -->  | <!--  --> | <!--  -->          |
+| ------------ | ---------- | ------------ | ---------- | --------- | ------------------ |
+| 💡 **Concepts** | Serverless | SCRUM        | Clean Code | SOLID     | Clean Architecture |
+| 💫 **Others**   | DevOps     | Web Scraping |   Google Looker Studio     |  Google  Big Query     |           |
 
-Software Developer Engineer
+## 📣 Conferences
 
-November 2021 - now
+---
 
-**Aeegle/Norttech, San Salvador**
+- [Development and Continuous Integration (CI/CD) with Google Cloud (Spanish)](https://youtu.be/ke0YrDHLdS8)
+- [Introduction to Magento Backend Development: Mastering the Magic Behind E-Commerce (Spanish) ](https://www.youtube.com/live/jZQSKy5eHz4?si=a87KSV6TsTnn7skv)
 
-Backend Developer NodeJs
+## 📜Education
 
-February 2020 - November 2021
+---
 
-### 📣 Conference and Community Talks
+| Institution                   | Degree               | From         | To       |
+| ----------------------------- | -------------------- | ------------ | -------- |
+| **University of El Salvador** | Software Engineering | January 2018 | May 2023 |
 
-[**[Development and Continuous Integration (CI/CD) with Google Cloud - (Speaker)** (Spanish)](https://youtu.be/ke0YrDHLdS8)](https://www.notion.so/Development-and-Continuous-Integration-CI-CD-with-Google-Cloud-Speaker-Spanish-4a0f771bf2774f488cd748525b16286d?pvs=21)
+## 📄Courses
 
-[[Introduction to Magento Backend Development: Mastering the Magic Behind E-Commerce](https://www.youtube.com/watch?v=jZQSKy5eHz4)](https://www.notion.so/Introduction-to-Magento-Backend-Development-Mastering-the-Magic-Behind-E-Commerce-19b2a43896444a96b65798fd04e0e0a1?pvs=21)
+---
 
-### 📜Education
+[Google Cloud Platform Fundamentals: Core Infrastructure](https://www.coursera.org/account/accomplishments/verify/DGHSFBHD9U9U?utm_source=link&utm_campaign=copybutton_certificate)
 
-**University of El Salvador**
-
-Software Engineering
-
-January 2018 - May 2023
-
-### 📄Certificates
-
-[Google Cloud Platform Fundamentals: Core Infrastructure](https://www.coursera.org/account/accomplishments/verify/DGHSFBHD9U9U?utm_source=link&utm_campaign=copybutton_certificate) 
-
-[Getting Started With Application Development in Google Cloud](https://www.coursera.org/account/accomplishments/records/T3VWM33MW7H4) 
+[Getting Started With Application Development](https://www.coursera.org/account/accomplishments/records/T3VWM33MW7H4)
 
 [Essential Google Cloud Infrastructure: Core Services](https://www.coursera.org/account/accomplishments/records/LEWBHN67TVDU)
 
 [DevOps with GitLab](https://platzi.com/p/ericksaravia.professional/curso/1526-gitlab/diploma/detalle/)
 
-[Linux Server Managment](https://platzi.com/p/ericksaravia.professional/curso/1667-linux/diploma/detalle/)
+[Server Management](https://platzi.com/p/ericksaravia.professional/curso/1667-linux/diploma/detalle/)
 
 [Docker](https://platzi.com/p/ericksaravia.professional/curso/2066-docker/diploma/detalle/)
-
-### 💻Technical Skills
-
-[Typescript](https://www.notion.so/Typescript-cfe9834b7b1b4e66a4e0aad845cf067f?pvs=21)
-
-[NodeJs](https://www.notion.so/NodeJs-e89af9af9f50418ca22c6e7bf2c4107c?pvs=21)
-
-[Python ](https://www.notion.so/Python-9e812b92172646bdbfd4caf4ffa73cdc?pvs=21)
-
-[Java](https://www.notion.so/Java-91c41abd02e3470e801cae816c7fc4e3?pvs=21)
-
-[Php](https://www.notion.so/Php-4b2438d0f9544b8091cdf6c06f4479e0?pvs=21)
-
-[MySql](https://www.notion.so/MySql-777aec6589744effb221a7dc6c9e8691?pvs=21)
-
-[Postgress](https://www.notion.so/Postgress-3cd75a5f9f3844708403d11c98385a6d?pvs=21)
-
-[Mongo DB](https://www.notion.so/Mongo-DB-833d654f54b145bdbe2ec8e873bd1103?pvs=21)
-
-[GCP](https://www.notion.so/GCP-5e8531e22c17488f8f7c32922fa24bd2?pvs=21)
-
-[Linux](https://www.notion.so/Linux-098ec4148cca4e7fa1a4e28aa8b03120?pvs=21)
-
-[Docker](https://www.notion.so/Docker-5b9bf054cdff4049bd9413f31773d63c?pvs=21)
-
-[Git](https://www.notion.so/Git-252a03d6555a4b39861769d069f3892e?pvs=21)
-
-[GitLab](https://www.notion.so/GitLab-9cd19a6b698e44aa85d1d79e3ae97901?pvs=21)
-
-[GitHub](https://www.notion.so/GitHub-d1342722264547e6b9a4e63bc29715cb?pvs=21)
-
-[Bitbucket](https://www.notion.so/Bitbucket-50e0768abe5c4ae883c432a1dbb3e7ca?pvs=21)
-
-[Jira](https://www.notion.so/Jira-0bb430508cfb42feb6ef62c8070d0822?pvs=21)
-
-### 💡Concepts
-
-- Serverless
-- SCRUM
-- Clean Code
-- SOLID
-- Clean Architecture
-
-### 💫 Others
-
-- DevOps
-- Web Scraping
-- Git Flow
-- Java
-- PHP
 
 ## 💼Professional experience - projects
 
