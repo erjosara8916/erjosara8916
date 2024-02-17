@@ -24,6 +24,14 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 | **Unicomer Group**  | San Salvador | Backend Developer Engineer Lead | November 2021 | Now           |
 | **Aeegle/Norttech** | San Salvador | Backend Developer NodeJs        | February 2020 | November 2021 |
 
+## 📜Education
+
+---
+
+| Institution                   | Degree               | From         | To       |
+| ----------------------------- | -------------------- | ------------ | -------- |
+| **University of El Salvador** | Software Engineering | January 2018 | May 2023 |
+
 
 ## 💻Technical Skills
 
@@ -43,30 +51,6 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 
 - [Development and Continuous Integration (CI/CD) with Google Cloud (Spanish)](https://youtu.be/ke0YrDHLdS8)
 - [Introduction to Magento Backend Development: Mastering the Magic Behind E-Commerce (Spanish) ](https://www.youtube.com/live/jZQSKy5eHz4?si=a87KSV6TsTnn7skv)
-
-## 📜Education
-
----
-
-| Institution                   | Degree               | From         | To       |
-| ----------------------------- | -------------------- | ------------ | -------- |
-| **University of El Salvador** | Software Engineering | January 2018 | May 2023 |
-
-## 📄Courses
-
----
-
-[Google Cloud Platform Fundamentals: Core Infrastructure](https://www.coursera.org/account/accomplishments/verify/DGHSFBHD9U9U?utm_source=link&utm_campaign=copybutton_certificate)
-
-[Getting Started With Application Development](https://www.coursera.org/account/accomplishments/records/T3VWM33MW7H4)
-
-[Essential Google Cloud Infrastructure: Core Services](https://www.coursera.org/account/accomplishments/records/LEWBHN67TVDU)
-
-[DevOps with GitLab](https://platzi.com/p/ericksaravia.professional/curso/1526-gitlab/diploma/detalle/)
-
-[Server Management](https://platzi.com/p/ericksaravia.professional/curso/1667-linux/diploma/detalle/)
-
-[Docker](https://platzi.com/p/ericksaravia.professional/curso/2066-docker/diploma/detalle/)
 
 ## 💼Professional experience - projects
 
@@ -244,5 +228,18 @@ I am loving of technology, and I am happy to work with it. I have been great opp
 - **Technologies/frameworks: `Adobe Commerce Cloud, NGinx, PHP, SQL, JavaScript, Symphony Framework (PHP)`**
 </details>
 
+## 📄Courses
 
-    
+---
+
+[Google Cloud Platform Fundamentals: Core Infrastructure](https://www.coursera.org/account/accomplishments/verify/DGHSFBHD9U9U?utm_source=link&utm_campaign=copybutton_certificate)
+
+[Getting Started With Application Development](https://www.coursera.org/account/accomplishments/records/T3VWM33MW7H4)
+
+[Essential Google Cloud Infrastructure: Core Services](https://www.coursera.org/account/accomplishments/records/LEWBHN67TVDU)
+
+[DevOps with GitLab](https://platzi.com/p/ericksaravia.professional/curso/1526-gitlab/diploma/detalle/)
+
+[Server Management](https://platzi.com/p/ericksaravia.professional/curso/1667-linux/diploma/detalle/)
+
+[Docker](https://platzi.com/p/ericksaravia.professional/curso/2066-docker/diploma/detalle/)
