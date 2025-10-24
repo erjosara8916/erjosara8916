@@ -1,0 +1,158 @@
+{
+  "personal": {
+    "name": "Erick Josué Saravia Aragón",
+    "title": "Backend Developer Engineer",
+    "summary": "I am loving of technology, and I am happy to work with it. I have been great opportunities to work for amazing international and local projects, working beside professional development teams. I have been trying a lot of interesting technologies, I like learning about trending topics like DevOps, Clean Code, Clean Architecture, Domain Driven Design, and others, so I usually take some time to read or take a course about it.",
+    "location": "San Miguel, San Miguel, El Salvador",
+    "age": 25,
+    "phone": "+(503) 7102 1375",
+    "email": "ericksaravia16@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/ericksaravia8916",
+    "github": "https://github.com/erjosara8916",
+    "languages": [
+      { "language": "Spanish", "level": "Native", "flag": "🇪🇸" },
+      { "language": "English", "level": "B1", "flag": "🇺🇸" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Unicomer Group",
+      "location": "San Salvador",
+      "position": "Software Developer Engineer",
+      "startDate": "November 2021",
+      "endDate": "Present",
+      "current": true
+    },
+    {
+      "company": "Aeegle/Norttech",
+      "location": "San Salvador",
+      "position": "Backend Developer Node.js",
+      "startDate": "February 2020",
+      "endDate": "November 2021",
+      "current": false
+    }
+  ],
+  "skills": {
+    "technical": [
+      { "name": "TypeScript", "icon": "📘", "category": "language" },
+      { "name": "Node.js", "icon": "🟢", "category": "runtime" },
+      { "name": "Python", "icon": "🐍", "category": "language" },
+      { "name": "Java", "icon": "☕", "category": "language" },
+      { "name": "PHP", "icon": "🐘", "category": "language" },
+      { "name": "MySQL", "icon": "🗄️", "category": "database" },
+      { "name": "MongoDB", "icon": "🍃", "category": "database" },
+      { "name": "GCP", "icon": "☁️", "category": "cloud" },
+      { "name": "Linux", "icon": "🐧", "category": "os" },
+      { "name": "Docker", "icon": "🐳", "category": "devops" },
+      { "name": "Git", "icon": "📝", "category": "vcs" },
+      { "name": "GitLab", "icon": "🦊", "category": "vcs" },
+      { "name": "GitHub", "icon": "😺", "category": "vcs" },
+      { "name": "Postgres", "icon": "🐘", "category": "database" },
+      { "name": "Bitbucket", "icon": "💙", "category": "vcs" },
+      { "name": "Jira", "icon": "📊", "category": "tool" }
+    ],
+    "concepts": [
+      "Serverless",
+      "SCRUM",
+      "Clean Code",
+      "SOLID",
+      "Clean Architecture"
+    ],
+    "others": [
+      "DevOps",
+      "Web Scraping",
+      "Git Flow",
+      "Java",
+      "PHP"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Transformation of Monolithic Delivery App to Microservices Architecture",
+      "description": "Led the architectural transformation of a monolithic delivery application into a scalable microservices-based system, improving performance and maintainability."
+    },
+    {
+      "title": "Scraping System for Store Product Data on Delivery App",
+      "description": "Developed an automated web scraping system to collect and synchronize product data from multiple stores for a delivery application."
+    },
+    {
+      "title": "Transformation of Monolithic Java App for Google Workspace Marketplace into Node.js Microservices",
+      "description": "Successfully migrated a legacy Java application to modern Node.js microservices architecture for Google Workspace Marketplace integration."
+    },
+    {
+      "title": "Development of Bitcoin Payment Gateway and Integration with CHIVO WALLET",
+      "description": "Built a secure Bitcoin payment gateway with seamless integration to El Salvador's CHIVO WALLET system."
+    },
+    {
+      "title": "Stripe Webhooks Handler Microservices",
+      "description": "Implemented a robust microservices architecture for handling Stripe webhook events and payment processing."
+    },
+    {
+      "title": "Realtime Reporter for Employee Activity",
+      "description": "Created a real-time monitoring and reporting system similar to Uber for tracking employee activity and productivity."
+    },
+    {
+      "title": "Integration and Automation of Zoho Products",
+      "description": "Automated and integrated various Zoho products for a telecommunications company, streamlining business processes."
+    },
+    {
+      "title": "E-commerce Migration: Magento 1 to Magento 2",
+      "description": "Migrated a B2B e-commerce platform from Magento 1 to Magento 2 (Adobe Commerce Cloud), ensuring data integrity and improved performance."
+    },
+    {
+      "title": "E-commerce B2C Store Implementation",
+      "description": "Implemented new B2C e-commerce stores and provided ongoing support for existing stores, ensuring optimal performance."
+    }
+  ],
+  "education": {
+    "institution": "University of El Salvador",
+    "degree": "Software Engineering",
+    "startDate": "January 2018",
+    "endDate": "May 2023"
+  },
+  "certificates": [
+    {
+      "name": "Google Cloud Platform Fundamentals: Core Infrastructure",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/DGHSFBHD9U9U"
+    },
+    {
+      "name": "Getting Started With Application Development in Google Cloud",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/records/T3VWM33MW7H4"
+    },
+    {
+      "name": "Essential Google Cloud Infrastructure: Core Services",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/records/LEWBHN67TVDU"
+    },
+    {
+      "name": "DevOps with GitLab",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/ericksaravia.professional/curso/1526-gitlab/diploma/detalle/"
+    },
+    {
+      "name": "Linux Server Management",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/ericksaravia.professional/curso/1667-linux/diploma/detalle/"
+    },
+    {
+      "name": "Docker",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/ericksaravia.professional/curso/2066-docker/diploma/detalle/"
+    }
+  ],
+  "talks": [
+    {
+      "title": "Development and Continuous Integration (CI/CD) with Google Cloud",
+      "type": "Speaker",
+      "language": "Spanish",
+      "url": "https://www.notion.so/Development-and-Continuous-Integration-CI-CD-with-Google-Cloud-Speaker-Spanish-4a0f771bf2774f488cd748525b16286d"
+    },
+    {
+      "title": "Introduction to Magento Backend Development: Mastering the Magic Behind E-Commerce",
+      "type": "Speaker",
+      "url": "https://www.notion.so/Introduction-to-Magento-Backend-Development-Mastering-the-Magic-Behind-E-Commerce-19b2a43896444a96b65798fd04e0e0a1"
+    }
+  ]
+}
