@@ -2,6 +2,7 @@ import { GraduationCap, Award, Megaphone, ExternalLink } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { YouTubeVideo } from "./YouTubeVideo";
 
 interface Certificate {
   name: string;
@@ -101,27 +102,13 @@ export const EducationSection = ({ education, certificates, talks }: EducationSe
           </h2>
           <div className="space-y-3">
             {talks.map((talk, index) => (
-              <Card key={index} className="shadow-custom-sm transition-custom hover:shadow-custom-md">
-                <CardContent className="flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
-                  <div className="flex-1">
-                    <p className="mb-1 text-sm font-medium sm:text-base">{talk.title}</p>
-                    <p className="text-xs text-muted-foreground sm:text-sm">
-                      {talk.type} {talk.language && `• ${talk.language}`}
-                    </p>
-                  </div>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="w-fit text-xs sm:text-sm"
-                    asChild
-                  >
-                    <a href={talk.url} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-1 h-3 w-3 sm:h-4 sm:w-4" />
-                      Watch
-                    </a>
-                  </Button>
-                </CardContent>
-              </Card>
+              <YouTubeVideo
+                key={index}
+                title={talk.title}
+                url={talk.url}
+                type={talk.type}
+                language={talk.language}
+              />
             ))}
           </div>
         </div>

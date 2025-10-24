@@ -1,6 +1,7 @@
-import { Briefcase, Calendar } from "lucide-react";
+import { Briefcase, Calendar, MapPin } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface Experience {
   company: string;
@@ -9,6 +10,7 @@ interface Experience {
   startDate: string;
   endDate: string;
   current: boolean;
+  description: string;
 }
 
 interface ExperienceSectionProps {
@@ -16,6 +18,26 @@ interface ExperienceSectionProps {
 }
 
 export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
+  // Ordenar experiencias: "Present" primero, luego por endDate descendente
+  const sortedExperiences = [...experiences].sort((a, b) => {
+    if (a.current && !b.current) return -1;
+    if (!a.current && b.current) return 1;
+    if (a.current && b.current) return 0;
+    
+    // Para experiencias no actuales, ordenar por endDate descendente
+    const aDate = new Date(a.endDate);
+    const bDate = new Date(b.endDate);
+    return bDate.getTime() - aDate.getTime();
+  });
+
+  // Crear un valor único para cada experiencia basado en la empresa
+  const getTabValue = (company: string) => {
+    return company.toLowerCase().replace(/\s+/g, '-');
+  };
+
+  // Obtener la primera experiencia como valor por defecto
+  const defaultTab = sortedExperiences.length > 0 ? getTabValue(sortedExperiences[0].company) : '';
+
   return (
     <section className="py-8 px-4">
       <div className="container mx-auto max-w-5xl">
@@ -24,35 +46,58 @@ export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
           Professional Experience
         </h2>
         
-        <div className="space-y-4">
-          {experiences.map((exp, index) => (
-            <Card key={index} className="gradient-card shadow-custom-md transition-custom hover:shadow-custom-lg animate-slide-in" style={{ animationDelay: `${index * 0.1}s` }}>
-              <CardHeader className="pb-3">
-                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                  <div>
-                    <CardTitle className="text-lg sm:text-xl">{exp.position}</CardTitle>
-                    <p className="text-sm font-medium text-muted-foreground sm:text-base">
-                      {exp.company}, {exp.location}
+        <Tabs defaultValue={defaultTab} className="w-full">
+          <TabsList className="mb-6 grid w-full h-auto" style={{ gridTemplateColumns: `repeat(${sortedExperiences.length}, 1fr)` }}>
+            {sortedExperiences.map((exp) => (
+              <TabsTrigger 
+                key={exp.company} 
+                value={getTabValue(exp.company)} 
+                className="text-xs sm:text-sm px-2 py-2"
+              >
+                {exp.company}
+              </TabsTrigger>
+            ))}
+          </TabsList>
+
+          {sortedExperiences.map((exp) => (
+            <TabsContent key={exp.company} value={getTabValue(exp.company)} className="animate-fade-in">
+              <Card className="gradient-card shadow-custom-md transition-custom hover:shadow-custom-lg">
+                <CardHeader className="pb-3">
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <CardTitle className="text-lg sm:text-xl">{exp.position}</CardTitle>
+                      <p className="text-sm font-medium text-muted-foreground sm:text-base">
+                        {exp.company}
+                      </p>
+                    </div>
+                    {exp.current && (
+                      <Badge className="w-fit bg-primary text-primary-foreground">
+                        Current
+                      </Badge>
+                    )}
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Calendar className="h-4 w-4" />
+                    <span>
+                      {exp.startDate} - {exp.endDate}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <MapPin className="h-4 w-4" />
+                    <span>{exp.location}</span>
+                  </div>
+                  <div className="pt-2">
+                    <p className="text-sm leading-relaxed text-foreground">
+                      {exp.description}
                     </p>
                   </div>
-                  {exp.current && (
-                    <Badge className="w-fit bg-primary text-primary-foreground">
-                      Current
-                    </Badge>
-                  )}
-                </div>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                  <Calendar className="h-4 w-4" />
-                  <span>
-                    {exp.startDate} - {exp.endDate}
-                  </span>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </TabsContent>
           ))}
-        </div>
+        </Tabs>
       </div>
     </section>
   );

@@ -2,7 +2,7 @@
   "personal": {
     "name": "Erick Josué Saravia Aragón",
     "title": "Sr. Backend Developer Engineer",
-    "summary": "I am loving of technology, and I am happy to work with it. I have been great opportunities to work for amazing international and local projects, working beside professional development teams. I have been trying a lot of interesting technologies, I like learning about trending topics like DevOps, Clean Code, Clean Architecture, Domain Driven Design, and others, so I usually take some time to read or take a course about it.",
+    "summary": "Backend Software Engineer with 5 years of experience, passionate about technology and the challenges that come with software development. I specialize in backend application development using technologies such as Node.js, TypeScript, PHP, and Java. I have strong experience working with relational and non-relational databases and in container orchestration with Docker. I strongly advocate for best practices, applying clean code principles, design patterns, and efficient architectures in all my projects. I have extensive experience with cloud technologies like AWS, Google Cloud, and Adobe Commerce Cloud. I’m proficient in serverless architectures, creating scalable and optimized solutions for various business needs. Additionally, I have expertise in areas such as Bitcoin-related development and Web Scraping.",
     "location": "San Miguel, San Miguel, El Salvador",
     "age": 26,
     "phone": "+(503) 7102 1375",
@@ -21,7 +21,8 @@
       "position": "Sr. Backend Developer Engineer",
       "startDate": "October 2024",
       "endDate": "Present",
-      "current": true
+      "current": true,
+      "description": "I have collaborated in building a new RIDESHARE platform for the company, developing backend services that power the applications used by both drivers and passengers. I have also developed integrations that enhance the company's operations and improve the performance of existing services. Among my biggest contributions are: improving the performance of backend services, creating dashboards to monitor the real-time status of a service, designing and implementing a new service for managing promotions on the platform, as well as designing and implementing a notification system"
     },
     {
       "company": "Unicomer Group",
@@ -29,7 +30,8 @@
       "position": "Software Developer Engineer",
       "startDate": "November 2021",
       "endDate": "October 2024",
-      "current": false
+      "current": false,
+      "description": "I played a key role in launching and maintaining new and existing e-commerce platforms. Beyond backend development and infrastructure setup, I have contributed to define new processes aimed at improving the development team's efficiency. One of my notable achievements was implementing new online payment methods, and expanding payment options for businesses in new regions. Furthermore, I collaborated on integrating external services, enhancing our platforms' capabilities. My experience includes successfully executing large-scale data migrations, ensuring seamless operational continuity, and maintaining data integrity and security. Additionally, I had the privilege of leading a backend development team in the successful launch of new online stores. My leadership approach focuses on fostering collaboration and innovation, ensuring the effective delivery of high-quality solutions"
     },
     {
       "company": "Aeegle/Norttech",
@@ -37,7 +39,8 @@
       "position": "Backend Developer Node.js",
       "startDate": "February 2020",
       "endDate": "November 2021",
-      "current": false
+      "current": false,
+      "description": "I contributed to the design, development, and implementation of backend solutions, leveraging Google Cloud products and adopting a serverless approach. I played a key role in migrating monolithic systems to a microservices architecture, which enhanced communication and data exchange between various platforms, optimizing process automation and generating valuable insights for our clients. Additionally, I collaborated on the development of a Bitcoin payment gateway, exploring emerging technologies to ensure secure and efficient solutions. I also participated in Web Scraping projects, enhancing our ability to extract relevant data from the web."
     }
   ],
   "skills": {
@@ -50,12 +53,18 @@
       { "name": "MySQL", "icon": "🗄️", "category": "database" },
       { "name": "MongoDB", "icon": "🍃", "category": "database" },
       { "name": "GCP", "icon": "☁️", "category": "cloud" },
+      { "name": "Adobe Commerce Cloud", "icon": "☁️", "category": "cloud" },
+      { "name": "AWS", "icon": "☁️", "category": "cloud" },
+      { "name": "Microsoft Azure", "icon": "☁️", "category": "cloud" },
       { "name": "Linux", "icon": "🐧", "category": "os" },
+      { "name": "Windows", "icon": "🐧", "category": "os" },
       { "name": "Docker", "icon": "🐳", "category": "devops" },
       { "name": "Git", "icon": "📝", "category": "vcs" },
       { "name": "GitLab", "icon": "🦊", "category": "vcs" },
       { "name": "GitHub", "icon": "😺", "category": "vcs" },
       { "name": "Postgres", "icon": "🐘", "category": "database" },
+      { "name": "MongoDB", "icon": "🐘", "category": "database" },
+      { "name": "Firebase", "icon": "🐘", "category": "database" },
       { "name": "Bitbucket", "icon": "💙", "category": "vcs" },
       { "name": "Jira", "icon": "📊", "category": "tool" }
     ],
