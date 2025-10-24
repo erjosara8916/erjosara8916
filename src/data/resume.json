@@ -1,10 +1,10 @@
 {
   "personal": {
     "name": "Erick Josué Saravia Aragón",
-    "title": "Backend Developer Engineer",
+    "title": "Sr. Backend Developer Engineer",
     "summary": "I am loving of technology, and I am happy to work with it. I have been great opportunities to work for amazing international and local projects, working beside professional development teams. I have been trying a lot of interesting technologies, I like learning about trending topics like DevOps, Clean Code, Clean Architecture, Domain Driven Design, and others, so I usually take some time to read or take a course about it.",
     "location": "San Miguel, San Miguel, El Salvador",
-    "age": 25,
+    "age": 26,
     "phone": "+(503) 7102 1375",
     "email": "ericksaravia16@gmail.com",
     "linkedin": "https://www.linkedin.com/in/ericksaravia8916",
@@ -16,12 +16,20 @@
   },
   "experience": [
     {
+      "company": "Uride",
+      "location": "Remote",
+      "position": "Sr. Backend Developer Engineer",
+      "startDate": "October 2024",
+      "endDate": "Present",
+      "current": true
+    },
+    {
       "company": "Unicomer Group",
       "location": "San Salvador",
       "position": "Software Developer Engineer",
       "startDate": "November 2021",
-      "endDate": "Present",
-      "current": true
+      "endDate": "October 2024",
+      "current": false
     },
     {
       "company": "Aeegle/Norttech",
@@ -69,6 +77,7 @@
   "projects": [
     {
       "title": "Transformation of Monolithic Delivery App to Microservices Architecture",
+      "company": "Nortech/Aeggle",
       "description": "Led the architectural transformation of a monolithic delivery application into a scalable microservices-based system, improving performance and maintainability.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -88,6 +97,7 @@
     },
     {
       "title": "Scraping System for Store Product Data on Delivery App",
+      "company": "Nortech/Aeggle",
       "description": "Developed an automated web scraping system to collect and synchronize product data from multiple stores for a delivery application.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -107,6 +117,7 @@
     },
     {
       "title": "Transformation of Monolithic Java App for Google Workspace Marketplace into Node.js Microservices",
+      "company": "Nortech/Aeggle",
       "description": "Successfully migrated a legacy Java application to modern Node.js microservices architecture for Google Workspace Marketplace integration.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -126,6 +137,7 @@
     },
     {
       "title": "Development of Bitcoin Payment Gateway and Integration with CHIVO WALLET",
+      "company": "Nortech/Aeggle",
       "description": "Built a secure Bitcoin payment gateway with seamless integration to El Salvador's CHIVO WALLET system.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -145,6 +157,7 @@
     },
     {
       "title": "Stripe Webhooks Handler Microservices",
+      "company": "Nortech/Aeggle",
       "description": "Implemented a robust microservices architecture for handling Stripe webhook events and payment processing.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -164,6 +177,7 @@
     },
     {
       "title": "Realtime Reporter for Employee Activity",
+      "company": "Nortech/Aeggle",
       "description": "Created a real-time monitoring and reporting system similar to Uber for tracking employee activity and productivity.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -183,6 +197,7 @@
     },
     {
       "title": "Integration and Automation of Zoho Products",
+      "company": "Nortech/Aeggle",
       "description": "Automated and integrated various Zoho products for a telecommunications company, streamlining business processes.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -202,6 +217,7 @@
     },
     {
       "title": "E-commerce Migration: Magento 1 to Magento 2",
+      "company": "Unicomer Group",
       "description": "Migrated a B2B e-commerce platform from Magento 1 to Magento 2 (Adobe Commerce Cloud), ensuring data integrity and improved performance.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -221,6 +237,7 @@
     },
     {
       "title": "E-commerce B2C Store Implementation",
+      "company": "Unicomer Group",
       "description": "Implemented new B2C e-commerce stores and provided ongoing support for existing stores, ensuring optimal performance.",
       "position": "Backend Developer",
       "responsibilities": [
@@ -282,12 +299,12 @@
       "title": "Development and Continuous Integration (CI/CD) with Google Cloud",
       "type": "Speaker",
       "language": "Spanish",
-      "url": "https://www.notion.so/Development-and-Continuous-Integration-CI-CD-with-Google-Cloud-Speaker-Spanish-4a0f771bf2774f488cd748525b16286d"
+      "url": "https://www.youtube.com/watch?v=ke0YrDHLdS8"
     },
     {
       "title": "Introduction to Magento Backend Development: Mastering the Magic Behind E-Commerce",
       "type": "Speaker",
-      "url": "https://www.notion.so/Introduction-to-Magento-Backend-Development-Mastering-the-Magic-Behind-E-Commerce-19b2a43896444a96b65798fd04e0e0a1"
+      "url": "https://www.youtube.com/watch?v=jZQSKy5eHz4"
     }
   ]
 }
