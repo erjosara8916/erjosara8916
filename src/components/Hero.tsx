@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Github, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImage from "@/assets/profile.jpeg";
 
@@ -23,6 +23,16 @@ export const Hero = ({ data }: HeroProps) => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent)]" />
       
       <div className="container relative mx-auto max-w-5xl">
+        {/* Download CV Button - Top Right */}
+        <div className="absolute top-0 right-4">
+          <Button asChild variant="default" size="sm" className="gap-2 shadow-lg">
+            <a href="/Resume.pdf" download="Erick_Saravia_Resume.pdf">
+              <Download className="h-4 w-4" />
+              <span className="hidden sm:inline">Download CV</span>
+              <span className="sm:hidden">CV</span>
+            </a>
+          </Button>
+        </div>
         <div className="flex flex-col items-center text-center animate-fade-in">
           {/* Profile Image */}
           <div className="mb-6 overflow-hidden rounded-full shadow-custom-lg ring-4 ring-white/20">
