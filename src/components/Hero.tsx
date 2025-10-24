@@ -22,7 +22,7 @@ export const Hero = ({ data }: HeroProps) => {
     <section className="relative overflow-hidden bg-gradient-hero py-12 px-4 sm:py-16 md:py-20">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent)]" />
       
-      <div className="container relative mx-auto max-w-6xl">
+      <div className="container relative mx-auto max-w-5xl">
         <div className="flex flex-col items-center text-center animate-fade-in">
           {/* Profile Image */}
           <div className="mb-6 overflow-hidden rounded-full shadow-custom-lg ring-4 ring-white/20">
@@ -34,15 +34,15 @@ export const Hero = ({ data }: HeroProps) => {
           </div>
 
           {/* Name and Title */}
-          <h1 className="mb-2 text-3xl font-bold text-white sm:text-4xl md:text-5xl">
+          <h1 className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">
             {data.name}
           </h1>
-          <p className="mb-4 text-xl text-white/90 sm:text-2xl">
+          <p className="mb-4 text-xl text-black sm:text-2xl">
             👨🏽‍💻 {data.title}
           </p>
 
           {/* Languages */}
-          <div className="mb-6 flex flex-wrap justify-center gap-2 text-white/90">
+          <div className="mb-6 flex flex-wrap justify-center gap-2 text-black">
             <span className="font-medium">🗣️ Languages:</span>
             {data.languages.map((lang, index) => (
               <span key={index}>
@@ -52,7 +52,7 @@ export const Hero = ({ data }: HeroProps) => {
           </div>
 
           {/* Summary */}
-          <p className="mb-8 max-w-3xl text-base text-white/90 sm:text-lg leading-relaxed">
+          <p className="mb-8 max-w-3xl text-base text-black sm:text-lg leading-relaxed">
             {data.summary}
           </p>
 
@@ -108,7 +108,7 @@ export const Hero = ({ data }: HeroProps) => {
           </div>
 
           {/* Location and Age */}
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm text-white/80">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm text-black">
             <span className="flex items-center gap-1">
               <MapPin className="h-4 w-4" />
               {data.location}

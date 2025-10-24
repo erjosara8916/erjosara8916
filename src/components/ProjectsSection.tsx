@@ -1,6 +1,7 @@
 import { FolderGit2, ChevronLeft, ChevronRight } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
 import {
   Carousel,
   CarouselContent,
@@ -8,6 +9,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { useEffect, useState } from "react";
+import type { CarouselApi } from "@/components/ui/carousel";
 
 interface Project {
   title: string;
@@ -19,6 +22,52 @@ interface ProjectsSectionProps {
 }
 
 export const ProjectsSection = ({ projects }: ProjectsSectionProps) => {
+  const [api, setApi] = useState<CarouselApi>();
+  const [progress, setProgress] = useState(0);
+  const AUTO_SCROLL_INTERVAL = 10000; // 10 seconds
+
+  useEffect(() => {
+    if (!api) return;
+
+    let progressInterval: NodeJS.Timeout;
+    let scrollTimeout: NodeJS.Timeout;
+
+    const startAutoScroll = () => {
+      setProgress(0);
+      
+      // Update progress bar smoothly
+      const progressStep = 100 / (AUTO_SCROLL_INTERVAL / 50);
+      progressInterval = setInterval(() => {
+        setProgress((prev) => {
+          const next = prev + progressStep;
+          return next >= 100 ? 100 : next;
+        });
+      }, 50);
+
+      // Auto-scroll to next slide
+      scrollTimeout = setTimeout(() => {
+        api.scrollNext();
+      }, AUTO_SCROLL_INTERVAL);
+    };
+
+    const resetAutoScroll = () => {
+      clearInterval(progressInterval);
+      clearTimeout(scrollTimeout);
+      startAutoScroll();
+    };
+
+    // Start auto-scroll on mount
+    startAutoScroll();
+
+    // Reset timer when user manually navigates
+    api.on("select", resetAutoScroll);
+
+    return () => {
+      clearInterval(progressInterval);
+      clearTimeout(scrollTimeout);
+    };
+  }, [api]);
+
   return (
     <section className="py-8 px-4">
       <div className="container mx-auto max-w-5xl">
@@ -28,6 +77,7 @@ export const ProjectsSection = ({ projects }: ProjectsSectionProps) => {
         </h2>
 
         <Carousel
+          setApi={setApi}
           opts={{
             align: "start",
             loop: true,
@@ -52,6 +102,12 @@ export const ProjectsSection = ({ projects }: ProjectsSectionProps) => {
               </CarouselItem>
             ))}
           </CarouselContent>
+          
+          {/* Progress Bar */}
+          <div className="mt-4 px-2">
+            <Progress value={progress} className="h-1" />
+          </div>
+          
           <div className="mt-4 flex justify-center gap-2">
             <CarouselPrevious className="static translate-y-0" />
             <CarouselNext className="static translate-y-0" />

@@ -39,7 +39,7 @@ export const SkillsSection = ({ skills }: SkillsSectionProps) => {
 
   return (
     <section className="bg-muted/30 py-8 px-4">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-5xl">
         <h2 className="mb-6 flex items-center gap-2 text-2xl font-bold text-foreground sm:text-3xl">
           <Code className="h-6 w-6 text-primary sm:h-7 sm:w-7" />
           Technical Skills
