@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Github, Download } from "lucide-react";
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import profileImage from "@/assets/profile.jpeg";
 
@@ -24,10 +24,10 @@ export const Hero = ({ data }: HeroProps) => {
       
       <div className="container relative mx-auto max-w-5xl">
         {/* Download CV Button - Top Right */}
-        <div className="absolute top-0 right-4">
+        <div className="absolute  top-0 right-4">
           <Button asChild variant="default" size="sm" className="gap-2 shadow-lg">
             <a href="/Resume.pdf" download="Erick_Saravia_Resume.pdf">
-              <Download className="h-4 w-4" />
+              <FaDownload className="h-4 w-4" />
               <span className="hidden sm:inline">Download CV</span>
               <span className="sm:hidden">CV</span>
             </a>
@@ -62,7 +62,7 @@ export const Hero = ({ data }: HeroProps) => {
           </div>
 
           {/* Summary */}
-          <p className="mb-8 max-w-3xl text-base text-black sm:text-lg leading-relaxed">
+          <p className="mb-8 max-w-3xl text-base text-justify text-black sm:text-lg leading-relaxed">
             {data.summary}
           </p>
 
@@ -75,7 +75,7 @@ export const Hero = ({ data }: HeroProps) => {
               asChild
             >
               <a href={`mailto:${data.email}`}>
-                <Mail className="h-4 w-4" />
+                <FaEnvelope className="h-4 w-4" />
                 <span className="truncate">{data.email}</span>
               </a>
             </Button>
@@ -87,7 +87,7 @@ export const Hero = ({ data }: HeroProps) => {
               asChild
             >
               <a href={`tel:${data.phone}`}>
-                <Phone className="h-4 w-4" />
+                <FaPhone className="h-4 w-4" />
                 {data.phone}
               </a>
             </Button>
@@ -99,7 +99,7 @@ export const Hero = ({ data }: HeroProps) => {
               asChild
             >
               <a href={data.linkedin} target="_blank" rel="noopener noreferrer">
-                <Linkedin className="h-4 w-4" />
+                <FaLinkedin className="h-4 w-4" />
                 LinkedIn
               </a>
             </Button>
@@ -111,7 +111,7 @@ export const Hero = ({ data }: HeroProps) => {
               asChild
             >
               <a href={data.github} target="_blank" rel="noopener noreferrer">
-                <Github className="h-4 w-4" />
+                <FaGithub className="h-4 w-4" />
                 GitHub
               </a>
             </Button>
@@ -120,7 +120,7 @@ export const Hero = ({ data }: HeroProps) => {
           {/* Location and Age */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm text-black">
             <span className="flex items-center gap-1">
-              <MapPin className="h-4 w-4" />
+              <FaMapMarkerAlt className="h-4 w-4" />
               {data.location}
             </span>
             <span>🎁 {data.age} years</span>

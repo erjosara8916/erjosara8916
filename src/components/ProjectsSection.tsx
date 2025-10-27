@@ -1,4 +1,4 @@
-import { FolderGit2, ChevronLeft, ChevronRight } from "lucide-react";
+import { FaFolderOpen, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -85,7 +85,7 @@ export const ProjectsSection = ({ projects }: ProjectsSectionProps) => {
     <section className="py-8 px-4">
       <div className="container mx-auto max-w-5xl">
         <h2 className="mb-6 flex items-center gap-2 text-2xl font-bold text-foreground sm:text-3xl">
-          <FolderGit2 className="h-6 w-6 text-primary sm:h-7 sm:w-7" />
+          <FaFolderOpen className="h-6 w-6 text-primary sm:h-7 sm:w-7" />
           Professional Projects
         </h2>
 

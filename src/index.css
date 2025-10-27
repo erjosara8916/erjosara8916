@@ -136,4 +136,13 @@ All colors MUST be HSL.
   .transition-custom {
     transition: var(--transition-base);
   }
+  
+  /* Custom tab styles for active states */
+  .tab-active {
+    @apply bg-primary text-primary-foreground font-semibold;
+  }
+  
+  .tab-inactive {
+    @apply bg-muted text-muted-foreground hover:bg-muted/80;
+  }
 }

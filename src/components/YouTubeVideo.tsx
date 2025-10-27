@@ -77,17 +77,8 @@ export const YouTubeVideo = ({ title, url, type, language }: YouTubeVideoProps) 
               className="w-fit text-xs sm:text-sm"
               onClick={handleOpenVideo}
             >
-              <Play className="mr-1 h-3 w-3 sm:h-4 sm:w-4" />
-              Play
-            </Button>
-            <Button
-              variant="outline"
-              size="sm"
-              className="w-fit text-xs sm:text-sm"
-              onClick={handleExternalLink}
-            >
               <YouTubeIcon size={16} className="mr-1 h-3 w-3 sm:h-4 sm:w-4" />
-              YouTube
+              Play
             </Button>
           </div>
         </CardContent>

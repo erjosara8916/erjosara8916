@@ -1,4 +1,4 @@
-import { Briefcase, Calendar, MapPin } from "lucide-react";
+import { FaBriefcase, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -42,7 +42,7 @@ export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
     <section className="py-8 px-4">
       <div className="container mx-auto max-w-5xl">
         <h2 className="mb-6 flex items-center gap-2 text-2xl font-bold text-foreground sm:text-3xl">
-          <Briefcase className="h-6 w-6 text-primary sm:h-7 sm:w-7" />
+          <FaBriefcase className="h-6 w-6 text-primary sm:h-7 sm:w-7" />
           Professional Experience
         </h2>
         
@@ -52,7 +52,7 @@ export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
               <TabsTrigger 
                 key={exp.company} 
                 value={getTabValue(exp.company)} 
-                className="text-xs sm:text-sm px-2 py-2"
+                className="text-xs sm:text-sm px-2 py-2 data-[state=active]:tab-active data-[state=inactive]:tab-inactive"
               >
                 {exp.company}
               </TabsTrigger>
@@ -79,13 +79,13 @@ export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Calendar className="h-4 w-4" />
+                    <FaCalendarAlt className="h-4 w-4" />
                     <span>
                       {exp.startDate} - {exp.endDate}
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <MapPin className="h-4 w-4" />
+                    <FaMapMarkerAlt className="h-4 w-4" />
                     <span>{exp.location}</span>
                   </div>
                   <div className="pt-2">
