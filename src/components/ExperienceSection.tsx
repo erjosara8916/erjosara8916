@@ -2,6 +2,7 @@ import { FaBriefcase, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useExternalLink } from "@/contexts/ExternalLinkContext";
 
 interface Experience {
   company: string;
@@ -19,6 +20,8 @@ interface ExperienceSectionProps {
 }
 
 export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
+  const { openLink } = useExternalLink();
+
   // Ordenar experiencias: "Present" primero, luego por endDate descendente
   const sortedExperiences = [...experiences].sort((a, b) => {
     if (a.current && !b.current) return -1;
@@ -38,6 +41,17 @@ export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
 
   // Obtener la primera experiencia como valor por defecto
   const defaultTab = sortedExperiences.length > 0 ? getTabValue(sortedExperiences[0].company) : '';
+
+  const handleCompanyClick = (exp: Experience) => {
+    if (exp.website) {
+      openLink({
+        title: exp.company,
+        url: exp.website,
+        description: `Sitio web oficial de ${exp.company}`,
+        buttonText: "Ver empresa"
+      });
+    }
+  };
 
   return (
     <section className="py-8 px-4">
@@ -68,14 +82,12 @@ export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
                     <div>
                       <CardTitle className="text-lg sm:text-xl">{exp.position}</CardTitle>
                       {exp.website ? (
-                        <a 
-                          href={exp.website} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-sm font-medium text-primary hover:text-primary/80 transition-colors underline decoration-primary/30 hover:decoration-primary/60 sm:text-base"
+                        <button
+                          onClick={() => handleCompanyClick(exp)}
+                          className="text-sm font-medium text-primary hover:text-primary/80 transition-colors cursor-pointer text-left"
                         >
                           {exp.company}
-                        </a>
+                        </button>
                       ) : (
                         <p className="text-sm font-medium text-muted-foreground sm:text-base">
                           {exp.company}

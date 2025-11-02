@@ -21,7 +21,10 @@ export const GlobalExternalLinkModal = () => {
       // Lista de dominios que típicamente bloquean iframes
       const blockedDomains = [
         'github.com', 'linkedin.com', 'twitter.com', 'x.com', 'facebook.com', 'python.org',
-        'www.php.net', 'developer.mozilla.org', 'www.oracle.com', 'cloud.google.com', 'aws.amazon.com'
+        'www.php.net', 'developer.mozilla.org', 'www.oracle.com', 'cloud.google.com', 'aws.amazon.com',
+        'grupounicomer.com', 'docker.com', 'www.postgresql.org', 'firebase.google.com',
+        'www.mysql.com', 'www.djangoproject.com', 'spring.io', 'www.linux.org', 'bitbucket.org',
+        'code.visualstudio.com', 'www.postman.com', 'www.atlassian.com', 'www.jetbrains.com'
       ];
       return !blockedDomains.some(blocked => domain.includes(blocked));
     } catch {
@@ -55,7 +58,7 @@ export const GlobalExternalLinkModal = () => {
                 className="h-8 text-xs"
               >
                 <ExternalLink className="mr-1 h-3 w-3" />
-                Abrir original
+                New Tab
               </Button>
               <Button
                 variant="ghost"

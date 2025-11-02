@@ -59,7 +59,7 @@ export const ExternalLinkViewer = ({
             onClick={handleExternalLink}
           >
             <ExternalLink className="mr-1 h-3 w-3 sm:h-4 sm:w-4" />
-            Abrir
+            Open
           </Button>
         </div>
       </CardContent>

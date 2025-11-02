@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { YouTubeVideo } from "./YouTubeVideo";
+import { useExternalLink } from "@/contexts/ExternalLinkContext";
 
 interface Certificate {
   name: string;
@@ -32,6 +33,19 @@ interface EducationSectionProps {
 }
 
 export const EducationSection = ({ education, certificates, talks }: EducationSectionProps) => {
+  const { openLink } = useExternalLink();
+
+  const handleEducationClick = () => {
+    if (education.website) {
+      openLink({
+        title: education.institution,
+        url: education.website,
+        description: `Sitio web oficial de ${education.institution}`,
+        buttonText: "Ver institución"
+      });
+    }
+  };
+
   return (
     <section className="bg-muted/30 py-8 px-4">
       <div className="container mx-auto max-w-5xl space-y-6">
@@ -45,14 +59,12 @@ export const EducationSection = ({ education, certificates, talks }: EducationSe
             <CardHeader>
               <CardTitle className="text-lg sm:text-xl">{education.degree}</CardTitle>
               {education.website ? (
-                <a
-                  href={education.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors sm:text-primary"
+                <button
+                  onClick={handleEducationClick}
+                  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors sm:text-primary text-left cursor-pointer"
                 >
                   {education.institution}
-                </a>
+                </button>
               ) : (
                 <p className="text-sm font-medium text-muted-foreground sm:text-base">
                   {education.institution}
