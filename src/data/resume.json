@@ -17,6 +17,7 @@
   "experience": [
     {
       "company": "Uride",
+      "website": "https://uride.co",
       "location": "Remote",
       "position": "Sr. Backend Developer Engineer",
       "startDate": "October 2024",
@@ -26,6 +27,7 @@
     },
     {
       "company": "Unicomer Group",
+      "website": "https://grupounicomer.com/",
       "location": "San Salvador",
       "position": "Software Developer Engineer",
       "startDate": "November 2021",
@@ -35,6 +37,7 @@
     },
     {
       "company": "Aeegle/Norttech",
+      "website": "https://www.aeegle.com/",
       "location": "San Salvador",
       "position": "Backend Developer Node.js",
       "startDate": "February 2020",

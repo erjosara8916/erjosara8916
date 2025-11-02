@@ -5,6 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface Experience {
   company: string;
+  website?: string;
   location: string;
   position: string;
   startDate: string;
@@ -66,9 +67,20 @@ export const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
                       <CardTitle className="text-lg sm:text-xl">{exp.position}</CardTitle>
-                      <p className="text-sm font-medium text-muted-foreground sm:text-base">
-                        {exp.company}
-                      </p>
+                      {exp.website ? (
+                        <a 
+                          href={exp.website} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-sm font-medium text-primary hover:text-primary/80 transition-colors underline decoration-primary/30 hover:decoration-primary/60 sm:text-base"
+                        >
+                          {exp.company}
+                        </a>
+                      ) : (
+                        <p className="text-sm font-medium text-muted-foreground sm:text-base">
+                          {exp.company}
+                        </p>
+                      )}
                     </div>
                     {exp.current && (
                       <Badge className="w-fit bg-primary text-primary-foreground">
