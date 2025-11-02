@@ -22,6 +22,7 @@ interface Talk {
 interface EducationSectionProps {
   education: {
     institution: string;
+    website?: string;
     degree: string;
     startDate: string;
     endDate: string;
@@ -43,9 +44,20 @@ export const EducationSection = ({ education, certificates, talks }: EducationSe
           <Card className="shadow-custom-md">
             <CardHeader>
               <CardTitle className="text-lg sm:text-xl">{education.degree}</CardTitle>
-              <p className="text-sm font-medium text-muted-foreground sm:text-base">
-                {education.institution}
-              </p>
+              {education.website ? (
+                <a
+                  href={education.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors sm:text-primary"
+                >
+                  {education.institution}
+                </a>
+              ) : (
+                <p className="text-sm font-medium text-muted-foreground sm:text-base">
+                  {education.institution}
+                </p>
+              )}
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">

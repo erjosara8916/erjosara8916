@@ -47,9 +47,9 @@ export const Hero = ({ data }: HeroProps) => {
           <h1 className="mb-2 text-3xl font-bold text-black sm:text-4xl md:text-5xl">
             {data.name}
           </h1>
-          <p className="mb-4 text-xl text-black sm:text-2xl">
+          <h2 className="mb-4 text-xl text-black sm:text-2xl">
             👨🏽‍💻 {data.title}
-          </p>
+          </h2  >
 
           {/* Languages */}
           <div className="mb-6 flex flex-wrap justify-center gap-2 text-black">

@@ -55,6 +55,7 @@ interface Skill {
   name: string;
   icon: string;
   category: string;
+  url?: string;
 }
 
 interface SkillsSectionProps {
@@ -160,16 +161,34 @@ export const SkillsSection = ({ skills }: SkillsSectionProps) => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {categorySkills.map((skill, index) => (
-                    <Badge
-                      key={index}
-                      variant="secondary"
-                      className="text-xs sm:text-sm flex items-center gap-1"
-                    >
-                      {getIcon(skill.icon)}
-                      {skill.name}
-                    </Badge>
-                  ))}
+                  {categorySkills.map((skill, index) => {
+                    const skillContent = (
+                      <Badge
+                        key={index}
+                        variant="secondary"
+                        className="text-xs sm:text-sm flex items-center gap-1"
+                      >
+                        {getIcon(skill.icon)}
+                        {skill.name}
+                      </Badge>
+                    );
+
+                    if (skill.url) {
+                      return (
+                        <a
+                          key={index}
+                          href={skill.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block transition-transform hover:scale-105"
+                        >
+                          {skillContent}
+                        </a>
+                      );
+                    }
+
+                    return skillContent;
+                  })}
                 </div>
               </CardContent>
             </Card>
