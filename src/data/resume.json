@@ -313,12 +313,16 @@
       "title": "Development and Continuous Integration (CI/CD) with Google Cloud",
       "type": "Speaker",
       "language": "Spanish",
-      "url": "https://www.youtube.com/watch?v=ke0YrDHLdS8"
+      "url": "https://youtu.be/ke0YrDHLdS8",
+      "start": 759
     },
     {
       "title": "Introduction to Magento Backend Development: Mastering the Magic Behind E-Commerce",
       "type": "Speaker",
-      "url": "https://www.youtube.com/watch?v=jZQSKy5eHz4"
+      "language": "Spanish",
+      "url": "https://youtu.be/jZQSKy5eHz4",
+      "start": 225,
+      "end": 3780
     }
   ]
 }

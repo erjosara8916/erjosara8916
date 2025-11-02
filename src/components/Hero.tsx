@@ -1,6 +1,6 @@
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
-import profileImage from "@/assets/profile.jpeg";
+import profileImage from "@/assets/profile.png";
 
 interface HeroProps {
   data: {
@@ -35,7 +35,7 @@ export const Hero = ({ data }: HeroProps) => {
         </div>
         <div className="flex flex-col items-center text-center animate-fade-in">
           {/* Profile Image */}
-          <div className="mb-6 overflow-hidden rounded-full shadow-custom-lg ring-4 ring-white/20">
+          <div className="mb-6 overflow-hidden rounded-2xl shadow-custom-lg ring-4 ring-white/20">
             <img
               src={profileImage}
               alt={data.name}

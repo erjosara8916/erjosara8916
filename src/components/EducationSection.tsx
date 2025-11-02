@@ -15,6 +15,8 @@ interface Talk {
   type: string;
   language?: string;
   url: string;
+  start?: number;
+  end?: number;
 }
 
 interface EducationSectionProps {
@@ -108,6 +110,8 @@ export const EducationSection = ({ education, certificates, talks }: EducationSe
                 url={talk.url}
                 type={talk.type}
                 language={talk.language}
+                start={talk.start}
+                end={talk.end}
               />
             ))}
           </div>

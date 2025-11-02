@@ -9,9 +9,11 @@ interface YouTubeVideoProps {
   url: string;
   type?: string;
   language?: string;
+  start?: number;
+  end?: number;
 }
 
-export const YouTubeVideo = ({ title, url, type, language }: YouTubeVideoProps) => {
+export const YouTubeVideo = ({ title, url, type, language, start, end }: YouTubeVideoProps) => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
   // Extraer el ID del video de YouTube de la URL
@@ -22,7 +24,7 @@ export const YouTubeVideo = ({ title, url, type, language }: YouTubeVideoProps) 
   };
 
   const videoId = getYouTubeVideoId(url);
-  const embedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : null;
+  const embedUrl = videoId ? `https://www.youtube.com/embed/${videoId}?autoplay=1${start ? `&start=${start}` : ''}${end ? `&end=${end}` : ''}` : null;
 
   const handleOpenVideo = () => {
     setIsVideoOpen(true);
