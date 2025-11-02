@@ -50,6 +50,7 @@ import {
 } from "react-icons/fa";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useExternalLink } from "@/contexts/ExternalLinkContext";
 
 interface Skill {
   name: string;
@@ -65,6 +66,8 @@ interface SkillsSectionProps {
 }
 
 export const SkillsSection = ({ skills }: SkillsSectionProps) => {
+  const { openLink } = useExternalLink();
+
   const categories = {
     language: "Programming Languages",
     runtime: "Runtime & Frameworks",
@@ -143,6 +146,17 @@ export const SkillsSection = ({ skills }: SkillsSectionProps) => {
     return acc;
   }, {} as Record<string, Skill[]>);
 
+  const handleSkillClick = (skill: Skill) => {
+    if (skill.url) {
+      openLink({
+        title: skill.name,
+        url: skill.url,
+        description: `Documentación oficial de ${skill.name}`,
+        buttonText: "Ver documentación"
+      });
+    }
+  };
+
   return (
     <section className="bg-muted/30 py-8 px-4">
       <div className="container mx-auto max-w-5xl">
@@ -161,34 +175,19 @@ export const SkillsSection = ({ skills }: SkillsSectionProps) => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {categorySkills.map((skill, index) => {
-                    const skillContent = (
-                      <Badge
-                        key={index}
-                        variant="secondary"
-                        className="text-xs sm:text-sm flex items-center gap-1"
-                      >
-                        {getIcon(skill.icon)}
-                        {skill.name}
-                      </Badge>
-                    );
-
-                    if (skill.url) {
-                      return (
-                        <a
-                          key={index}
-                          href={skill.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-block transition-transform hover:scale-105"
-                        >
-                          {skillContent}
-                        </a>
-                      );
-                    }
-
-                    return skillContent;
-                  })}
+                  {categorySkills.map((skill, index) => (
+                    <Badge
+                      key={index}
+                      variant="secondary"
+                      className={`text-xs sm:text-sm flex items-center gap-1 ${
+                        skill.url ? 'cursor-pointer hover:bg-primary/20 transition-colors' : ''
+                      }`}
+                      onClick={() => handleSkillClick(skill)}
+                    >
+                      {getIcon(skill.icon)}
+                      {skill.name}
+                    </Badge>
+                  ))}
                 </div>
               </CardContent>
             </Card>
