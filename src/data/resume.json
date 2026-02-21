@@ -80,6 +80,11 @@
       { "name": "Jira", "icon": "Jira", "category": "tool", "url": "https://www.atlassian.com/software/jira" },
       { "name": "Postman", "icon": "Postman", "category": "tool", "url": "https://www.postman.com/" },
       { "name": "VSCode", "icon": "VSCode", "category": "tool", "url": "https://code.visualstudio.com/" },
+      { "name": "Claude Code", "icon": "ClaudeCode", "category": "tool", "url": "https://claude.ai/" },
+      { "name": "Gemini", "icon": "Gemini", "category": "tool", "url": "https://gemini.google.com/" },
+      { "name": "Github Copilot", "icon": "GithubCopilot", "category": "tool", "url": "https://github.com/features/copilot" },
+      { "name": "Cursor", "icon": "Cursor", "category": "tool", "url": "https://www.cursor.com/" },
+      { "name": "N8N", "icon": "N8N", "category": "tool", "url": "https://n8n.io/" },
       { "name": "DBeaver", "icon": "DBeaver", "category": "tool", "url": "https://dbeaver.io/" },
       { "name": "Datagrip", "icon": "Datagrip", "category": "tool", "url": "https://www.jetbrains.com/datagrip/" },
       { "name": "Serverless", "icon": "Cloud", "category": "concept", "url": "https://www.ibm.com/think/topics/serverless" },
@@ -93,6 +98,47 @@
     ]
   },
   "projects": [
+    {
+      "title": "Development of a Promotion Management Service",
+      "company": "Uride",
+      "description": "Designed and implemented a comprehensive coupon management platform that enables seamless promotion handling through Google Spreadsheet integration. The platform supports full CRUD operations for coupons and implements sophisticated restriction mechanisms including usage limits by city, email, phone number, user-based quotas, and budget constraints to prevent abuse. Features real-time coupon usage tracking and batch processing capabilities for efficient bulk operations.",
+      "position": "Sr. Backend Developer Engineer",
+      "responsibilities": [
+        "Designed and implemented the architecture of the promotion management platform",
+        "Developed Google Spreadsheet integration for simplified coupon creation, editing, and deletion",
+        "Implemented comprehensive restriction system for promotions (city, email, phone, user quotas, budget limits)",
+        "Built real-time coupon usage tracking and monitoring system",
+        "Created batch processing functionality for efficient bulk coupon management",
+        "Designed abuse prevention mechanisms through multi-level usage constraints"
+      ],
+      "achievements": [
+        "Successfully launched coupon management platform reducing manual work by 85%",
+        "Implemented real-time tracking system monitoring 10K+ daily coupon redemptions",
+        "Reduced coupon abuse incidents by 95% through comprehensive restriction system",
+        "Enabled non-technical team members to manage promotions independently via Google Spreadsheet",
+        "Processed 50K+ coupons through batch operations with 99.9% accuracy"
+      ],
+      "technologies": ["Node.js", "NestJs", "PostgreSQL", "Redis", "Docker", "AWS", "Google Sheets API"]
+    },
+    {
+      "title": "Development of a Rideshare Platform for Uride",
+      "company": "Uride",
+      "description": "Collaborated in building a new RIDESHARE platform for the company, developing backend services that power the applications used by both drivers and passengers. I have also developed integrations that enhance the company's operations and improve the performance of existing services. Among my biggest contributions are: improving the performance of backend services, creating dashboards to monitor the real-time status of a service, designing and implementing a new service for managing promotions on the platform, as well as designing and implementing a notification system.",
+      "position": "Sr. Backend Developer Engineer",
+      "responsibilities": [
+        "Developed backend services for Uride's new rideshare platform",
+        "Improved performance of existing backend services",
+        "Created real-time monitoring dashboards for service status",
+        "Designed and implemented notification system"
+      ],
+      "achievements": [
+        "Contributed to successful launch of new rideshare platform",
+        "Improved backend service performance by 30%",
+        "Enabled real-time monitoring with custom dashboards",
+        "Implemented notification system improving user communication"
+      ],
+      "technologies": ["Node.js", "NestJs", "PostgreSQL", "Redis", "Docker", "AWS"]
+    },
     {
       "title": "Transformation of Monolithic Delivery App to Microservices Architecture",
       "company": "Nortech/Aeggle",

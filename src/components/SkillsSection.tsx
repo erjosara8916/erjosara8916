@@ -25,14 +25,16 @@ import {
   SiDjango,
   SiNestjs,
   SiExpress,
-  SiMagento
+  SiMagento,
+  SiClaude,
+  SiGooglegemini,
+  SiGithubcopilot,
+  SiN8N
 
 } from "react-icons/si";
 import { 
-  FaCode, 
-  FaLightbulb, 
-  FaWrench, 
-  FaFileAlt, 
+  FaCode,
+  FaFileAlt,
   FaServer, 
   FaCoffee, 
   FaBolt, 
@@ -116,6 +118,11 @@ export const SkillsSection = ({ skills }: SkillsSectionProps) => {
     NestJs: SiNestjs,
     Express: SiExpress,
     Magento: SiMagento,
+    ClaudeCode: SiClaude,
+    Gemini: SiGooglegemini,
+    GithubCopilot: SiGithubcopilot,
+    Cursor: FaCode,
+    N8N: SiN8N,
     // Iconos genéricos
     FileText: FaFileAlt,
     Server: FaServer,
